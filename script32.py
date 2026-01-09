@@ -16,6 +16,8 @@ with open(my_book) as my_open_book:
         if looking_for_open_quote:   # in S0
             # Do some work
 
+            # Part of which is capturing dialogue
+
             # Part of which is transitioning between states
             if '"' in the_line:
                 looking_for_open_quote = False
