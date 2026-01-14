@@ -17,6 +17,10 @@ with open(my_book) as my_open_book:
             # Do some work
 
             # Part of which is capturing dialogue
+            for i in range(len(the_line)):
+                if the_line[i] == '"':
+                    dialog = the_line[i:]
+                    break
 
             # Part of which is transitioning between states
             if '"' in the_line:
