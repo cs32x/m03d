@@ -1,4 +1,4 @@
-### m03d/script32.py
+### m03e/script32.py
 my_book = input('What book would you like as a script? ')
 
 with open(my_book) as my_open_book:
