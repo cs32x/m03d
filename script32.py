@@ -4,6 +4,7 @@ my_book = input('What book would you like as a script? ')
 with open(my_book) as my_open_book:
     # Start state
     looking_for_open_quote = True
+    dialog = ''
 
     while True:
         the_line = my_open_book.readline()
